@@ -1,0 +1,52 @@
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 50%;
+  margin: 100px auto;
+}
+#inputField {
+  width: 618px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  outline: none;
+  font-size: 18px;
+  vertical-align: middle;
+  padding-left: 20px;
+}
+#addToDo {
+  margin-left: 50px;
+  min-width: 140px;
+  height: 50px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 10px;
+  background-color: blue;
+  font-size: 18px;
+  vertical-align: middle;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.todos {
+  margin-top: 50px;
+  padding-top: 10px;
+  width: 590px;
+  height: 50vh;
+}
+.paragraph-styling {
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 20px;
+  height: 30px;
+  width: 600px;
+  background-color: rgb(255, 217, 19);
+  border-radius: 10px;
+}
