@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>To do list</title>
-  </head>
-  <body>
-    <div class="container">
-       <input id="inputField" type="text" placeholder="Write a new item..." required><button id="addToDo">Add</button>
-       <div class="todos" id="toDoContainer"></div>
-    </div>
-
-    <script src="script.js"></script>
+    <title>TODO APP / Task list</title>
+</head>
+<body>
+   <header>
+       <h1>Create a new task</h1>
+       <form id="new-task-form">
+            <input 
+                type="text" 
+                name="new-task-input"
+                id="new-task-input"
+                placeholder="Write a new task here..."
+            />
+            <input 
+                type="submit" 
+                id="new-task-submit"
+                value="ADD"
+            />
+       </form>
+   </header>
+   <main>
+       <section class="task-list">
+            <h2>Task list</h2>
+            <div id="tasks">
+              <!--  <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My shiny task" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+       </section>
+   </main>
+  <script src="script.js"></script>
   </body>
 </html>
