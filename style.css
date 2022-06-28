@@ -129,3 +129,6 @@ main {
 .task .actions .delete {
   color: crimson;
 }
+.task .content {
+  width: 100%;
+}
